@@ -1,0 +1,39 @@
+{
+    "baseUrl": "",
+    "mocks": {
+        "cep": {
+            "valido": "13092902",
+            "menosCaracteres": "1309290",
+            "maisCaracteres": "130929021",
+            "comLetras": "13092A02"
+        },
+        "rua": {
+            "valido": "Av. Iguatemi",
+            "invalido": "Av. Iguatemi AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        "numero": {
+            "valido": 13,
+            "invalido": "1A"
+        },
+        "complemento": {
+            "valido": "Apto 13",
+            "invalido": "Casa AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        "dataNascimento": {
+            "valido": "1991-01-01",
+            "menorIdade": "2015-01-01",
+            "invalida": "2025-01-01"
+        },
+        "cpf": {
+            "valido": "58037125076",
+            "menosCaracteres": "5803712507",
+            "maisCaracteres": "580371250761",
+            "comLetra": "5803712507A",
+            "digitoVerificadorInvalido": "12345678912"
+        },
+        "nome": {
+            "valido": "Jose da Silva",
+            "invalido": "Joseeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee daaaaaaaaaaaaaaaaaaaaaa Silvaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+    }
+}

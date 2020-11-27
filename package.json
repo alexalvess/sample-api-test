@@ -1,0 +1,19 @@
+{
+  "name": "sample-api-test",
+  "version": "1.0.0",
+  "description": "Testes automatizados realizados para o desafio da SvLabs",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "testes",
+    "automatizados"
+  ],
+  "author": "Andre Azzini",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.0.0"
+  }
+}
