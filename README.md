@@ -1,5 +1,5 @@
 # O que é este projeto?
-Este projeto é uma automação de testes focados em API. Todos os testes foram desenvolvidos de acordo com as informações contidas no [documento](./especificacao).
+Este projeto é uma automação de testes focados em API. Todos os testes foram desenvolvidos de acordo com as informações contidas no [documento](./especificacao.pdf).
 
 ## Proposta:
 Validar campos enviados, via payload, em dois endpoints referente a Cadastro de Cliente (com verbo POST) e Consulta de Endereço de Cliente (com verbo GET).
