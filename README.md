@@ -26,4 +26,4 @@ Busca por cliente | CPF contendo 12 caracteres | 400 | Campo CPF deve conter 11 
 Busca por cliente | CPF inexistente | 400 | Campo cpf não informado
 Busca por cliente | CPF contendo letras | 502 | Erro interno
 Busca por cliente | CPF válido e  não cadastrado | 404 | Cliente não encontrado
-Busca por cliente | CPF válido e cadastrado | "CORPO DO RESPONSE"
+Busca por cliente | CPF válido e cadastrado | 200 | "CORPO DO RESPONSE"
