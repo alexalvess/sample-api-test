@@ -1,3 +1,9 @@
+# O que é este projeto?
+Este projeto é uma automação de testes focados em API. Todos os testes foram desenvolvidos de acordo com as informações contidas no [documento](./especificacao).
+
+## Proposta:
+Validar campos enviados, via payload, em dois endpoints referente a Cadastro de Cliente (com verbo POST) e Consulta de Endereço de Cliente (com verbo GET).
+
 ## Cenários de teste identificados:
 Funcionalidade | Cenário | Status esperado | Mensagem esperada
 -|-|-|-
@@ -27,3 +33,21 @@ Busca por cliente | CPF inexistente | 400 | Campo cpf não informado
 Busca por cliente | CPF contendo letras | 502 | Erro interno
 Busca por cliente | CPF válido e  não cadastrado | 404 | Cliente não encontrado
 Busca por cliente | CPF válido e cadastrado | 200 | "CORPO DO RESPONSE"
+
+Todos os testes realizados estão em ./cypress/integration/cliente
+
+## Tecnologias:
+* Cypress v6.0.0
+* Javascript
+* NPM (instalador de pacotes)
+
+## Como executar/utilizar?
+* Tenha alguma ferramenta do Git instalado, como o [GitBash](https://git-scm.com/downloads)
+* Tenha instalado alguma IDE como o [Visual Studio Code](https://code.visualstudio.com/download)
+* Tenha instalado o [NodeJs](https://nodejs.org/en/download/)
+* Baixe o repositório, via GitBash, para alguma pasta:
+    * git clone URL_DO_PROJETO
+* Abra o projeto pelo Visual Studio Code
+* Execute os comandos no terminal:
+    * npm install
+    * npm run cy:open
